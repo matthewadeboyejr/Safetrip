@@ -1,14 +1,14 @@
 import LoginForm from "../components/forms/LoginForm";
-import Logo from "../components/Logo";
+import Logo from "../components/general/Logo";
 
 const Login = () => {
   return (
-    <div className="flex md:flex-row flex-col  w-screen h-screen ">
+    <div className="flex md:flex-row flex-col  w-screen h-screen   ">
       <div className="bg-msp-blue dark:bg-msp-black md:w-1/3 md:flex  md:flex-col flex-row gap-20 md:px-6 md:pt-32  px-6 py-3">
         <div>
           <Logo />
         </div>
-        <h1 className="text-msp-bg  text-xl font-bold md:block hidden">
+        <h1 className="text-white text-2xl font-bold md:block hidden">
           <span>
             Your Safety Pal:<br></br>
           </span>
